@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em; /* 1em = 16px*/
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:black;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #e6739f;
+  font-size: 5.625rem;  /* 1em = 16px i.e 90px = 90/16= 5.625    rem means relative em which means no matter what the size applied to parent we want this size to this perticular div*/
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #e6739f;
+}
+hr {
+    border: dotted #fe7171 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #1d2d50;
+}
+
+.top-container {
+  background-color: #ffe2e2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+
+.middle-container{
+
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container{
+
+    position: relative;
+    padding-top: 100px;
+}
+.social-icons{
+  height: 3%;
+  width: 3%;
+}
+.email{
+  height: 5%;
+  width: 5%;
+}
